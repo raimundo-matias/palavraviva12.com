@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(309deg, #2c0e8d, #13133d, #791ddc, #06dfd9);
+  background-size: 800% 800%;
+  -webkit-animation: GradientAnimation 960s ease infinite;
+  -moz-animation: GradientAnimation 960s ease infinite;
+  animation: GradientAnimation 960s ease infinite;
+  height: 100vh;
+  width: 100%;
+  overflow: none;
+  position: relative;
+}
+
+section > img, section > a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a.address {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-top:150px;
+  color: #fff;
+  background-color: #13133d;
+  padding: 9px;
+}
+  
+@keyframes GradientAnimation {
+  0% { background-position: 0% 46%; }
+  50% { background-position: 100% 55%; }
+  100% { background-position: 0% 46%; }
+}
