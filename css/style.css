@@ -28,7 +28,7 @@ a.address {
   color: #fff;
   background-color: #13133d;
   padding: 10px;
-  width: 55%;
+  width: auto;
 }
   
 @keyframes GradientAnimation {
