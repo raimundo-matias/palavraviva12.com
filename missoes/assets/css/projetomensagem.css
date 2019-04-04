@@ -1,0 +1,80 @@
+html          { margin: 0; padding: 0; }
+body		      {height: 100%;background-color: #786721;}
+div.jumbotron {height: 150px; background-color: #504416;}
+
+#push         { height: 40px; }
+#footer {
+  height: 345px;
+  background:
+    url('../img/footer-img-top.png') repeat-x center top,
+    url('../img/footer-img-bottom.png') repeat-x center bottom;
+  background-color:#146e0a;
+}
+
+a.fontface  {font: 36px '28DaysLaterRegular', Arial, sans-serif;letter-spacing: 0;}
+h2          {font: 28px 'ArsenalBold', Arial, sans-serif;letter-spacing: 0;color: #ffff00;}
+
+nav#menu 			    {margin-top:60px;}
+nav#menu ul 		  {padding: 0px; margin: 0px; list-style:none;}
+nav#menu ul li 		{display: inline;padding: 0px 5px 0px;}
+nav#menu ul li a  {
+	/* visual do link */
+	color: #E4D83A;
+	text-decoration: none;
+	border-bottom:3px solid #EDEDED;
+}
+
+nav#menu ul li a.select {color: #fff; border-bottom:3px solid #EA0000;}
+nav#menu ul li a:hover  {color: #fff; border-bottom:3px solid #EA0000;}
+
+p.texto1 {
+  font: 18px 'ArsenalRegular', Arial, sans-serif;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color:#ffff96;
+}
+
+div.gallery a {margin: 0px 5px 0px 0px;}
+div.gallery a:hover {background-color:#fff;}
+
+address {font: 16px 'ArsenalRegular', Arial, sans-serif; color:#ffffff;}
+img.iconp {width: 64px; height: 64px;}
+
+label.control-label {
+  font: 18px 'ArsenalRegular', Arial, sans-serif;
+  color:#ffcc00;
+}
+
+/******* Fontes *******/
+@font-face {
+    font-family: '28DaysLaterRegular';
+    src: url('../font/28-days-later/28_days_later-webfont.eot');
+    src: url('../font/28-days-later/28_days_later-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/28-days-later/28_days_later-webfont.woff') format('woff'),
+         url('../font/28-days-later/28_days_later-webfont.ttf') format('truetype'),
+         url('../font/28-days-later/28_days_later-webfont.svg#28DaysLaterRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArsenalRegular';
+    src: url('../font/arsenal/Arsenal-Regular-webfont.eot');
+    src: url('../font/arsenal/Arsenal-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/arsenal/Arsenal-Regular-webfont.woff') format('woff'),
+         url('../font/arsenal/Arsenal-Regular-webfont.ttf') format('truetype'),
+         url('../font/arsenal/Arsenal-Regular-webfont.svg#ArsenalRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArsenalBold';
+    src: url('../font/arsenal/Arsenal-Bold-webfont.eot');
+    src: url('../font/arsenal/Arsenal-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/arsenal/Arsenal-Bold-webfont.woff') format('woff'),
+         url('../font/arsenal/Arsenal-Bold-webfont.ttf') format('truetype'),
+         url('../font/arsenal/Arsenal-Bold-webfont.svg#ArsenalBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
